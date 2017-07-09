@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+
+
+body {
+    background: #444;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: .25px;
+}
+
+.navbar-default {
+    padding: 10px 0;
+    background-color: #444;
+    border-top: 0;
+    border-bottom-color: #6b9e63;
+    border-bottom-width: 2px;
+    border-right: 0;
+    border-left: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 35px;
+}
+
+.navbar-right {
+    margin-right: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-weight: 500;
+}
+
+header.jumbotron {
+    height: 650px;
+    background-image: url('https://pixabay.com/get/e830b1062cf7063ed1534705fb094795e070e6d31aac10459cf9c071a1ebb1bb/justice-1509437_1920.jpg');
+    background-size: cover;
+    margin-top: 100px;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header.jumbotron .heading {
+    font-size: 56px;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    background-color: #444;
+    padding: 60px;
+    width: 560px;
+    border-radius: 6px;
+}
+
+.cta .btn {
+    font-size: 20px;
+}
+
+.flex-row.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-family: 'Alegreya', serif;
+}
+
+.media-row {
+    margin: 40px -40px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent;
+    color: #6b9e63;
+}
+
+.well {
+    background-color: #353535;
+    border: none;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #6b9e63;
+    border-color: #4CAF50;
+}
+
+.border-btm {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+.border-dark {
+    border-color: #5f5e5e;
+}
+
+.border-btm.border-green {
+    border-color: #6b9e63;
+}
+
+.nav-pills>li>a {
+    color: #fff;
+    font-weight: 400;
+}
+
+.nav-pills>li>a:focus,
+.nav-pills>li>a:hover {
+    background-color: transparent;
+    color: #6b9e63;
+}
+
+.border-big {
+    border: 8px solid;
+}
+
+.no-padding-left {
+    padding-left: 0;
+}
+
+.no-padding-right {
+    padding-right: 0;
+}
+
+.media-body {
+    max-width: 800px;
+}
